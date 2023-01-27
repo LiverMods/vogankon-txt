@@ -1,17 +1,8 @@
---[[
-    Credits to Kiriot22 for the Role getter <3
-        - poorly coded by FeIix <3
-]]
-
--- > Declarations < --
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LP = Players.LocalPlayer
 local roles
-
--- > Functions <--
 
 function CreateHighlight() -- make any new highlights for new players
 	for i, v in pairs(Players:GetChildren()) do
