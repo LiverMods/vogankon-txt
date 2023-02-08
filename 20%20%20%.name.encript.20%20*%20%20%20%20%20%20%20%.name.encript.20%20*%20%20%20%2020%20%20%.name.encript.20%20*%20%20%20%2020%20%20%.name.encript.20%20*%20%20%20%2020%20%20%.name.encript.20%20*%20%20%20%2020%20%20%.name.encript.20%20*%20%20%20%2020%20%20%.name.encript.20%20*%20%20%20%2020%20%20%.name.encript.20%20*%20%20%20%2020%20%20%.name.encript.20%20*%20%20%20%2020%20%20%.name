@@ -69,3 +69,7 @@ end)
                    LocSection:NewDropdown("V3 Info", "info", {"🇪🇸 1- Nueva versión V3 🇲🇽", "🇪🇸 2- Se agregaron nuevos idiomas 🇲🇽", "🇪🇸 3 - Armas de crash añadidas 🇲🇽"}, function(v)
                    print(v)
 end)
+
+spawn(function()
+wait(0.4) local Sound = Instance.new("Sound",game:GetService("SoundService")) Sound.SoundId = "rbxassetid://488265234" Sound:Play()
+end)
