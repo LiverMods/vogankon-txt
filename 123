@@ -1,0 +1,19 @@
+local chat = {
+    [1] = "Made By Liver zMods",
+    [2] = "All"
+}
+
+task.wait(1)
+local chat2 = {
+    [1] = "subscribe to the channel: Liver zMods",
+    [2] = "All"
+}
+
+task.wait(1)
+local chat3 = {
+    [1] = "Thanks ",
+    [2] = "All"
+}
+
+print("👍🏼")
+local credts = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
