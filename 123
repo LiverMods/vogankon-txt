@@ -3,14 +3,12 @@ local chat = {
     [2] = "All"
 }
 
-task.wait(1)
-local chat2 = {
+local sub = {
     [1] = "subscribe to the channel: Liver zMods",
     [2] = "All"
 }
 
-task.wait(1)
-local chat3 = {
+local tha = {
     [1] = "Thanks ",
     [2] = "All"
 }
