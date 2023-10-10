@@ -1,0 +1,11 @@
+local character = game.Players.LocalPlayer.Character
+
+if character then
+    local leftLeg = character:FindFirstChild("Left Leg")
+    local rightLeg = character:FindFirstChild("Right Leg")
+
+    if leftLeg and rightLeg then
+        leftLeg:Destroy()
+        rightLeg:Destroy()
+    end
+end
